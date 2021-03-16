@@ -14,10 +14,6 @@ customElements.define('any-src', class Sourceable extends HTMLElement {
         return ['src'];
     }
 
-    constructor() {
-        super();
-    }
-
     attributeChangedCallback() {
         // todo complete fetch HTTP options
         // const http = this.dataset.http;
