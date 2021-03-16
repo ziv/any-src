@@ -14,7 +14,7 @@ The following `JSON` available at `/data.json` end-point.
 ```
 ### HTML
 ```html
-<any-src>
+<any-src src="/data.json">
     <p data-text="sample"></p>
     <img data-src="image">
     <div>
