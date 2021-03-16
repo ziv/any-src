@@ -15,16 +15,6 @@ customElements.define('any-src', class Sourceable extends HTMLElement {
     }
 
     attributeChangedCallback() {
-        // todo complete fetch HTTP options
-        // const http = this.dataset.http;
-        // if (http) {
-        //     // parse json and use it as fetch options
-        // }
-        // todo complete loader
-        // const loader = this.dataset.loader;
-        // if (loader) {
-        //     // handle loader display
-        // }
         fetch(this.getAttribute('src'))
             .then(responseHandler)
             .then(updateFactory(this))
