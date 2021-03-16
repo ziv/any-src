@@ -1,6 +1,6 @@
 {
   "name": "any-src",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "any source web component",
   "main": "index.js",
   "scripts": {
