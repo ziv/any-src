@@ -1,6 +1,11 @@
 # any-src
 Simple web-component provide `src` attribute to enrich HTML templates.
 
+## Usage
+```shell
+npm i any-src
+```
+
 ## Example
 ### Data source
 The following `JSON` available at `/data.json` end-point.
