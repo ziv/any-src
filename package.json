@@ -1,0 +1,22 @@
+{
+  "name": "any-src",
+  "version": "0.0.0",
+  "description": "any source web component",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziv/any-src.git"
+  },
+  "keywords": [
+    "webcomponent"
+  ],
+  "author": "ziv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziv/any-src/issues"
+  },
+  "homepage": "https://github.com/ziv/any-src#readme"
+}
