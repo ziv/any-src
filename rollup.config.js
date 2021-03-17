@@ -1,7 +1,11 @@
+import typescript from '@rollup/plugin-typescript';
+
+const packageJson = require('./package.json');
+
 export default {
-    input: 'src/index.js',
+    input: 'src/index.ts',
     output: [
-        {file: 'lib/bundle.es.js', format: 'es'},
-        {file: 'lib/bundle.umd.js', format: 'umd'}
-    ]
+        {format: 'esm', dir: 'lib'},
+    ],
+    plugins: [typescript()]
 };

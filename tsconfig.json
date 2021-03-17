@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "es2019"
+    ],
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2015",
+    "sourceMap": false,
+    "outDir": "./lib",
+    "baseUrl": "./src",
+    "incremental": true
+  }
+}

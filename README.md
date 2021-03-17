@@ -15,7 +15,7 @@ npm i any-src
 | Attribute | Description |
 | --- | --- |
 | `src` | URL to load |
-| `data-fetch` | [fetch](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch#parameters) options |
+| `opts` | [fetch](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch#parameters) options `JSON` |
 
 
 ### Content Attributes
