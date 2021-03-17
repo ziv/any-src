@@ -1,6 +1,9 @@
 # any-src
 Simple web-component provide `src` attribute to enrich HTML templates.
 
+The package export only single component `any-src`. 
+All options and configuration done using HTML5 `data-*` attributes.
+
 ## Usage
 ```shell
 npm i any-src
@@ -12,6 +15,8 @@ npm i any-src
 | Attribute | Description |
 | --- | --- |
 | `src` | URL to load |
+| `data-fetch` | [fetch](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch#parameters) options |
+
 
 ### Content Attributes
 
@@ -35,7 +40,7 @@ The following `JSON` available at `/data.json` end-point.
 
 ### HTML
 ```html
-<any-src src="/data.json">
+<any-src src="https://example/data.json">
     <p data-text="sample"></p>
     <img data-src="image">
     <div>
