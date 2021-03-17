@@ -1,9 +1,12 @@
 {
   "name": "any-src",
   "version": "0.0.2",
-  "description": "any source web component",
-  "main": "index.js",
+  "description": "any-src web component",
+  "main": "lib/bundle.umd.js",
+  "module": "lib/bundle.es.js",
   "scripts": {
+    "prebuild": "rm -rf lib",
+    "build": "rollup --config",
     "test": "exit 0"
   },
   "repository": {
@@ -11,12 +14,18 @@
     "url": "git+https://github.com/ziv/any-src.git"
   },
   "keywords": [
-    "webcomponent"
+    "webcomponent",
+    "src",
+    "source",
+    "loader"
   ],
   "author": "ziv",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ziv/any-src/issues"
   },
-  "homepage": "https://github.com/ziv/any-src#readme"
+  "homepage": "https://github.com/ziv/any-src#readme",
+  "devDependencies": {
+    "rollup": "^2.41.4"
+  }
 }

@@ -6,6 +6,22 @@ Simple web-component provide `src` attribute to enrich HTML templates.
 npm i any-src
 ```
 
+## API
+### Component Attributes
+
+| Attribute | Description |
+| --- | --- |
+| `src` | URL to load |
+
+### Content Attributes
+
+| Attribute | Description |
+| --- | --- |
+| `data-text` | Set `innerText` of element |
+| `data-src` | Set `src` of element |
+| `data-value` | Set `value` of element |
+
+
 ## Example
 ### Data source
 The following `JSON` available at `/data.json` end-point.
